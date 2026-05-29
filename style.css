@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: #f4f2ee !important;
+  overflow-x: hidden;
+}
+nav {
+  position: sticky;
+  top: 16px;
+  z-index: 100;
+  margin: 16px auto;
+  max-width: 680px;
+  padding: 0 16px;
+  background-color: white;
+}
+
+.logo {
+  max-height: 7vh !important;
+}
+#start {
+  margin-top: 10rem !important;
+}
+.title {
+  font-weight: 400 !important;
+}
+.para {
+  font-size: 18px !important;
+}
+.hero-img-1 {
+  position: relative;
+  height: 447px !important;
+  width: 500px !important;
+}
+.hero-img-2 {
+  max-height: 30vh !important;
+  position: absolute;
+  left: 70%;
+  top: 60%;
+}
+.customer-logo-img {
+  object-fit: contain;
+  height: 32px;
+}
+.dashboard-img {
+  max-height: 610px;
+  max-width: 427px;
+}
+.svg-img {
+  height: 20px;
+  width: 32px;
+}
+.nav-tabs {
+  background-color: #f0ece6;
+}
+.tab-contant {
+  height: 960px;
+  width: 1000px;
+  border-radius: 20px !important;
+}
+.feature-tab-ui {
+  background-image: url(./assests/Dreamy\ Abstract\ Colors.avif);
+  background-position: 50%;
+  background-size: cover;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+  display: flex;
+  position: relative;
+  border-radius: 20px;
+}
+.feature-tab-ui::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  border-radius: 30px;
+}
+.customer-card {
+  background-image: url(./assests/Customer\ Card.png);
+  z-index: 1;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  border-radius: 20px;
+  height: 350px;
+}
+.portal {
+  background-color: #fef7af;
+  width: 150px;
+}
+.text {
+  font-weight: 400 !important;
+}
+.feature-tab-ui-2 {
+  background-image: url(./assests/Dreamlike\ Abstract\ Art_2.avif);
+  background-position: 50%;
+  background-size: cover;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+  display: flex;
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+}
+.customer-card-2 {
+  background-image: url(./assests/Revenue\ Card.png);
+  z-index: 1;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100%; */
+  height: 100%;
+  position: absolute;
+  top: 35px;
+  left: 15px;
+  right: 15px;
+  bottom: 35px;
+  border-radius: 20px;
+  height: 320px;
+}
+.feature-tab-ui-2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  border-radius: 30px;
+}
+.grrek-img {
+  background-color: #f0ece6;
+  border-radius: 20px;
+}
+.bg-border {
+  z-index: 1;
+  aspect-ratio: 1;
+  border: 1px dashed white;
+  border-radius: 20px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  display: flex;
+  position: relative;
+}
+ul {
+  list-style: none;
+  line-height: 40px;
+}
+.pricing-bg-wrapper {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  min-height: 600px !important;
+  padding: 40px;
+  /* ✅ image as background */
+  background-image: url("./assests/card-bg.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pricing-bg-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  border-radius: 30px;
+}
+.pricing-bg-wrapper .nav-tabs,
+.pricing-bg-wrapper .tab-content {
+  position: relative;
+  z-index: 2;
+}
+.not-card-img {
+  position: relative;
+}
+.brand-name {
+  position: absolute;
+  max-width: 100px !important;
+  top: 35%;
+  left: 41%;
+}
+.card-text{
+
+    font-size: 15px;
+}
+.img{
+
+    max-height: 40vh !important;
+}
+.quotes{
+
+    height: 31px;
+    width: 40px;
+}
+.name{
+
+    margin-top: 80px;
+}
+.testimonial{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+}
+.card-1{
+
+    border: none !important;
+    border-radius: 20px !important;
+}
+.card-2{
+
+    margin-top: 50px;
+    border: none !important;
+    border-radius: 20px !important;
+}
+.card-3{
+
+    border: none !important;
+    border-radius: 20px !important;
+    margin-top: 100px;
+}
+footer{
+
+    background-color: #F0ECE6;
+}
